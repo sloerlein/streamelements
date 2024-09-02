@@ -12,7 +12,7 @@
 	- Skip this step if using an existing overlay already added in OBS
 
 Useage Commands:
-
+```txt
 !startWalk speed
 	- Displays the walk distance string, calculates using input speed number (walkpad miles per hour)
  	- example `!startWalk 3` will start display and calculate using 3 miles per hour
@@ -22,3 +22,4 @@ Useage Commands:
 
 !clearWalk
 	- Hides the walk distance string display
+```
