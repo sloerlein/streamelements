@@ -1,0 +1,52 @@
+{
+  "preview": {
+    "type": "checkbox",
+    "label": "Preview"
+  },
+  "startCommand": {
+    "type": "text",
+    "label": "Start Command",
+    "value": "!startWalk"
+  },
+  "endCommand": {
+    "type": "text",
+    "label": "End Command",
+    "value": "!endWalk"
+  },
+  "clearCommand": {
+    "type": "text",
+    "label": "Clear and Hide Command",
+    "value": "!clearWalk"
+  },
+  "privileges": {
+    "type": "dropdown",
+    "label": "Who can participate:",
+    "value": "everybody",
+    "options": {
+      "everybody": "Everybody",
+      "justSubs": "Subs",
+      "subs": "Subs + VIPs + Mods",
+      "vips": "VIPs + Mods",
+      "mods": "Mods",
+      "broadcaster": "Broadcaster"
+    }
+  },
+  "fontSize": {
+    "type": "number",
+    "label": "Font Size",
+    "value": 20,
+    "min": 0,
+    "max": 100,
+    "step": 1
+  },
+  "fontName": {
+    "type": "googleFont",
+    "label": "Select a font:",
+    "value": "Roboto"
+  },
+  "fontColor": {
+    "type": "colorpicker",
+    "label": "Some color",
+    "value": "#0000FF"
+  }
+}
